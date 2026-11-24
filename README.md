@@ -1,37 +1,38 @@
-# Kata 1 - Familiarización con IntelliJ IDEA y Git
+# Kata 1 - Getting Familiar with IntelliJ IDEA and Git
 
-## Objetivo de la entrega
+## Purpose of the Assignment
 
-El objetivo de esta kata es conseguir fluidez a la hora de usar el entorno del IntelliJ.
-á de aprender a usar Git usando tanto commits, merge, pull y push a un repositorio
-De GitHub.
+The goal of this kata is to become fluent in using the IntelliJ environment.
+In addition, it aims to teach how to use Git, including commits, merge, pull and push to a
+GitHub repository.
 
-## Cómo compilar y ejecutar
+## How to Build and Run
 
-El proyecto se puede acceder desde mi repositorio en GitHub y una vez metido en IntelliJ 
-Es posible el ejecutarlo á al á verde que se encuentra a la derecha de 
-"Current File" mientras que te encuentras en la clase main.
+The project can be accessed from my GitHub repository. Once it is opened in IntelliJ,
+it can be run with the green button located to the right of "Current File" while the
+`Main` class is open.
 
-## Dependencias y versión de JDK
-- JDK usado: Java 27 (Oracle OpenJDK27)
-Este proyecto no utiliza ninguna dependencia externa solo las bibliotecas estándar de java
+## Dependencies and JDK Version
+- JDK used: Java 26 (Oracle OpenJDK 26)
 
-## Estructura de la entrega
-- `Main`: Clase principal que se ejecuta.
-- `Student`: Clase de dominio con el cálculo de la edad/año de nacimiento.
+This project does not use any external dependencies, only the Java standard library.
 
-## Flujo Git y Repeticiones
-- Se ha usado la rama `develop` para trabajar y `master` para la versión final evaluable.
-- He repetido esta kata 3 veces. He usado la misma estructura en los 3 pero en vez de una clase Student
-usé una clase "Shop" con un cálculo diferente y lo mismo con una clase "Velocity".
-- Mientras hacía esta kata usaba diferentes atajos de teclado como ctrl + k para los commit, 
-ctrl + shif + k para hacer un push, alt + enter que realiza sugerencias, shif + alt + flechas 
-para moverme entre ficheros, shif + F6 refactor y el ctrl + alt para moverme por la interfaz.
+## Project Structure
+- `Main`: Main class that is executed.
+- `Student`: Domain class with the age/birth year calculation.
 
-## Verificaciones realizadas
-- Se ha ejecutado el programa comprobando que la salida por consola es correcta, además de depurar el 
-programa con el uso de breakpoints.
-- Se ha comprobocado su buen funcionamiento mediante un clonado el reprositorio de GitHub.
+## Git Workflow and Repetitions
+- The `develop` branch was used for day-to-day work and `master` for the final, evaluable version.
+- I repeated this kata 3 times. I used the same structure in all three, but instead of a
+  `Student` class I used a `Shop` class with a different calculation, and likewise a `Velocity` class.
+- While doing this kata I used several keyboard shortcuts: Ctrl + K to commit,
+  Ctrl + Shift + K to push, Alt + Enter for suggestions, Shift + Alt + arrow keys
+  to move between files, Shift + F6 to refactor, and Ctrl + Alt to move around the interface.
 
-## Vídeo explicativo
+## Verifications Performed
+- The program was run to check that the console output is correct, and it was also debugged
+  using breakpoints.
+- Correct operation was verified by cloning the GitHub repository into a clean folder.
+
+## Explanatory Video
 https://drive.google.com/file/d/1EYjPoOKaesrzAZESAOBfQLVvVgrlRA5c/view?usp=sharing
